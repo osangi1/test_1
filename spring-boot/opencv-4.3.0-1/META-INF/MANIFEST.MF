@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1586828441048
+Build-Jdk: 1.8.0_162
+Built-By: jason
+Bundle-Description: OpenCV packaged with native libraries and loader f
+ or multiple platforms.
+Bundle-License: http://github.com/Itseez/opencv/raw/master/LICENSE
+Bundle-ManifestVersion: 2
+Bundle-Name: OpenPnP OpenCV
+Bundle-SymbolicName: org.openpnp.opencv
+Bundle-Version: 4.3.0.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: nu.pattern;version="4.3.0",nu.pattern.opencv.linux.x86
+ _32;version="4.3.0",nu.pattern.opencv.linux.x86_64;version="4.3.0",nu
+ .pattern.opencv.osx.x86_64;version="4.3.0",nu.pattern.opencv.windows.
+ x86_32;version="4.3.0",nu.pattern.opencv.windows.x86_64;version="4.3.
+ 0",org.opencv.calib3d;uses:="org.opencv.core";version="4.3.0",org.ope
+ ncv.core;version="4.3.0",org.opencv.dnn;uses:="org.opencv.core";versi
+ on="4.3.0",org.opencv.features2d;uses:="org.opencv.core";version="4.3
+ .0",org.opencv.highgui;uses:="org.opencv.core";version="4.3.0",org.op
+ encv.imgcodecs;uses:="org.opencv.core";version="4.3.0",org.opencv.img
+ proc;uses:="org.opencv.core";version="4.3.0",org.opencv.ml;uses:="org
+ .opencv.core";version="4.3.0",org.opencv.objdetect;uses:="org.opencv.
+ core";version="4.3.0",org.opencv.osgi;version="4.3.0",org.opencv.phot
+ o;uses:="org.opencv.core";version="4.3.0",org.opencv.utils;uses:="org
+ .opencv.core";version="4.3.0",org.opencv.video;uses:="org.opencv.core
+ ";version="4.3.0",org.opencv.videoio;uses:="org.opencv.core";version=
+ "4.3.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
